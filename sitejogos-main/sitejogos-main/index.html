@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jogos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+  <header class="top-header">
+    <center><h1>Jogos em alta</h1></center>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+       <ul>
+        <li><a href="index.html" rel="noopener noreferrer">Jogos</a></li>
+        <li><a href="surgiu.html"  rel="noopener noreferrer">Primeiros jogos lançados no mundo</a></li>
+        <li><a href="pq.html"  rel="noopener noreferrer">Consoles</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <div class="filtros">
+        <input type="text" id="filtro" placeholder="Buscar..." />
+        <label>
+          <input type="checkbox" id="filtrarPorNome" />
+          Buscar apenas por nome
+        </label>
+      </div>
+      <div id="container-cards" class="cards"></div>
+    </main>
+  </div>
+
+  <script src="final.js"></script>
+
+  <footer class="footer">
+    <p>Desenvolvido por Albert</p>
+  </footer>
+</body>
+</html>

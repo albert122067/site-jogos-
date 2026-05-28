@@ -1,0 +1,109 @@
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000000;
+    background: radial-gradient( rgb(17, 0, 255) 0%, rgb(255, 251, 251) 100%);
+    }
+
+    .container {
+    display: flex;
+    height: 100vh;
+    }
+
+    .sidebar {
+    width: 220px;
+    background: #ffffff;
+    background: radial-gradient( rgb(7, 34, 122) 0%, rgb(0, 19, 83) 100%);
+    color: white;
+    padding: 20px;
+    }
+
+    .sidebar h2 {
+    margin-top: 0;
+    }
+
+    .sidebar ul {
+    list-style: none;
+    padding: 0;
+    }
+
+    .sidebar ul li {
+    margin: 15px 0;
+    }
+
+    .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    }
+
+    .main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    }
+
+    .filtros {
+    margin-bottom: 20px;
+    }
+
+    #filtro {
+    padding: 8px;
+    width: 250px;
+    font-size: 16px;
+    }
+
+    .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    }
+
+    .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    }
+
+    .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    }
+
+    .card h3 {
+    margin: 10px 0 5px;
+    }
+
+    .card p {
+    font-size: 14px;
+    color: #000000;
+    }
+    .top-header {
+    background: #000000;
+    background: radial-gradient(rgb(7, 34, 122) 0%, rgb(0, 19, 83) 100%);
+    color: white;
+    padding: 15px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    font-family: monospace;
+    }
+
+    .container {
+    display: flex;
+    height: calc(100vh - 70px); /* Ajuste por causa do header */
+    }
+    .footer {
+    background: #000000;
+    background: radial-gradient(rgb(7, 34, 122) 0%, rgb(0, 19, 83) 100%);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    }
